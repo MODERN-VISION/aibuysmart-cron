@@ -1,0 +1,14 @@
+{
+  "functions": {
+    "api/autoBlog.js": {
+      "memory": 512,
+      "maxDuration": 30
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/autoBlog",
+      "schedule": "0 8 * * *"
+    }
+  ]
+}
